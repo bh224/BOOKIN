@@ -67,10 +67,11 @@
                 {% csrf_token %}
                 <div id="register_wrap">
                     <p id="register_title">내 책방 등록</p>
-                    <label for="file">
+                    <!-- <label for="file">
                         <img id="currentImage" src="#" alt="" class="store_regi_img w-40 h-40 rounded border-2 object-center object-cover cursor-pointer">
                         <input type="file" id="file" name="store_img" accept="image/*" class="hidden">
-                    </label>
+                    </label> -->
+                    <input name="store_img">
                     <div class="store_regi">
                         <p>책방이름</p>
                         <input name="store_name">

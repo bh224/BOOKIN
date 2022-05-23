@@ -65,11 +65,12 @@ def mystore(request, pk):
                 store_name=request.POST['store_name'],
                 store_info=request.POST['store_info'],
                 user_id=pk,
+                store_img=request.POST['store_img']
             )
-            img_url = image_upload(
-                'bookstores', request.FILES['store_img'], store_register.pk)
-            store_register.store_img = img_url
-            store_register.save()
+            # img_url = image_upload(
+            #     'bookstores', request.FILES['store_img'], store_register.pk)
+            # store_register.store_img = img_url
+            # store_register.save()
 
             return redirect('mystore', pk)
 

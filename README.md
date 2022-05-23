@@ -9,8 +9,7 @@ Chat : 구본홍 </br>
 Book store : 김보현 </br>
 Book : 김보현 </br>
 Like : 한장원 </br>
-AI : 유성훈 </br>
-Design : 정아람 </br>
+Design : 김보현, 구본홍 </br>
 
 # 기능
 로그인, 회원가입, 이메일 인증 </br>
@@ -20,3 +19,4 @@ Design : 정아람 </br>
 책 리뷰/별점 등록 </br>
 좋아요 </br>
 채팅 </br>
+# BOOKIN
